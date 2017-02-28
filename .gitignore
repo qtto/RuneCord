@@ -6,3 +6,4 @@ node_modules
 .vscode
 config.json
 db/commandSettings-temp.json
+client_secret.txt

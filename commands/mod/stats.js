@@ -19,8 +19,8 @@ module.exports = {
 		bot.createMessage(msg.channel.id, {
 			embed: {
 				title: 'Official GitHub Page',
-				url: 'https://github.com/unlucky4ever/RuneCord',
-				description: 'A bot just for RuneScaoe.\n\tMore details at https://github.com/unlucky4ever/RuneCord',
+				url: 'https://github.com/qtto/RuneCord/',
+				description: 'A bot just for Redditors.\n\tMore details at https://github.com/qtto/RuneCord/',
 				author: {
 					name: botAuthor.username + '#' + botAuthor.discriminator,
 					icon_url: botAuthor.avatarURL

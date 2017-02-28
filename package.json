@@ -27,7 +27,9 @@
     "require-reload": "0.2.2",
     "stringify-object": "3.1.0",
     "superagent": "3.4.2",
-    "truncate": "2.0.0"
+    "truncate": "2.0.0",
+    "googleapis": "17.1.0",
+    "google-auth-library": "0.10.0"
   },
   "devDependencies": {
     "eslint": "*",

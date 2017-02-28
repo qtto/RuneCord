@@ -15,17 +15,15 @@ module.exports = {
 		let botAuthor = bot.users.get(config.adminIds[0]);
 		bot.createMessage(msg.channel.id, {
 			embed: {
-				title: 'Official Server Invite',
-				url: 'https://discord.me/runecord',
-				description: 'RuneCord is a bot made to allow you to get RuneScape information in your Discord server.\n\nIf you have any feedback or suggestions head over to my server.\nFor a list of commands do `~help` and `)help`.',
+				title: 'Github Page',
+				url: 'https://github.com/qtto/RuneCord/',
+				description: 'RuneCord is a bot made to allow you to get RuneScape information in your Discord server.\n\nIf you have any feedback or suggestions ask @Otto.',
 				author: {
 					name: botAuthor.username + '#' + botAuthor.discriminator,
 					icon_url: botAuthor.avatarURL
 				},
 				fields: [
-					{ name: 'Website', value: 'https://runecord.xyz'},
-					{ name: 'GitHub', value: 'https://github.com/unlucky4ever/RuneCord/'},
-					{ name: 'Patreon', value: 'https://patreon.com/witty'}
+					{ name: 'GitHub', value: 'https://github.com/qtto/RuneCord/'}
 				],
 				footer: {
 					text: `Made with Eris v${libVersion} | Current Version: ${botVersion} | ${moment(msg.timestamp).format('ddd MMM do, YYYY [at] h:mm A')}`,
