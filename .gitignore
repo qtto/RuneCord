@@ -7,3 +7,4 @@ node_modules
 config.json
 db/commandSettings-temp.json
 client_secret.txt
+clannies.json
