@@ -23,17 +23,17 @@ module.exports = {
 		if (!suffix) {
 			fs.readFile('./links.json', (err, data) => {
 				if (err) {
-					return 'wrong usage';
+					bot.createMessage(msg.channel.id, 'Error opening links file.');
 				} else {
 					let links = JSON.parse(data);
 					if (links[msg.author.id]) {
 						suffix = links[msg.author.id];
 						stats(suffix);
 					} else {
-						return 'wrong usage';
+						bot.createMessage(msg.channel.id, 'Use this command with <username> (or set one with the setrsn command)');
 					}
 				}
-			});
+			})
 		} else {
 			stats(suffix);
 		}
