@@ -43,9 +43,9 @@ function get_data(api_key) {
     } else {
       for (let i = 0; i < rows.length; i++) {
         let row = rows[i];
-        row[3] = row[3].toLowerCase() != 'yes' ? 'no' : 'yes';
+        row[3] = row[3].toLowerCase() != 'yes' ? 'No!' : 'Yes!';
 
-        let name = row[0];
+        let name = row[0].toLowerCase().replace(/[-\s]+/g, '_');
         clannies[name] = {
             'name':     row[0],
             'rank':     row[1],
