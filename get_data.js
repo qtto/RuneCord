@@ -1,3 +1,6 @@
+/* This function gets the clan data every X couple of minutes.
+   set this up as a cron job or add loop functionality to the script. */
+
 
 var fs = require('fs');
 var readline = require('readline');
