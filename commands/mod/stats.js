@@ -7,7 +7,7 @@ var moment = require('moment');
 
 /* REQUIRED FILES */
 var formatTime = reload('../../utils/utils.js').formatTimeShort;
-var botVersion    = reload('../../package.json').version;
+var botVersion = reload('../../package.json').version;
 var libVersion = require('../../node_modules/eris/package.json').version;
 var config     = reload('../../config.json');
 
