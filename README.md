@@ -3,18 +3,7 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-green.svg)](https://raw.githubusercontent.com/unlucky4ever/RuneCord/master/LICENSEr/LICENSE)
 [![Code Climate](https://codeclimate.com/github/unlucky4ever/RuneCord/badges/gpa.svg)](https://codeclimate.com/github/unlucky4ever/RuneCord)
 
-<<<<<<< HEAD
 # A bot just for ~~Runescape~~ Redditors.
-=======
-# A bot just for RuneScape.
-
-#### [Website](http://unlucky4ever.github.io/RuneCord/index.html) | [Support on Patreon](http://patreon.com/witty) | [Documentation](http://unlucky4ever.github.io/RuneCord/docs/index.html) | [Discord Server](https://discord.me/runecord)
-
-## Adding the official bot to your server
-You can add the official RuneCord bot to your server without making your own by clicking the link below.
-
-##### [Click here to add RuneCord to your server.](https://discordapp.com/oauth2/authorize?client_id=168215284161708032&scope=bot&permissions=11264)
->>>>>>> 4ceb1b6b8d116e9c5926dbe541bf4988baad5e3b
 
 ## Bugs / Support / Suggestions
 If you find a problem with the bot, please file an issue. Same goes for suggestions too.
